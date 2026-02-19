@@ -1,0 +1,31 @@
+
+* {background: #191919; color: #fff; margin: 3px 0;}
+.dn {display: none}
+.ft-bold {font-weight: bold}
+
+.main_content .main_section {width: 70%; margin: 25px auto;}
+.main_title {font-size: 24px; text-indent: 10px; font-weight: bold}
+.main_item {display: flex; align-items: center; padding: 5px 0; border-bottom: 1px solid rgba(255, 255, 243, .082);}
+.main_item .item_date {padding-left: 40px; font-size: 15px; min-width: 230px;}
+.main_item .item_img {padding-left: 40px; font-size: 15px; min-width: 230px;}
+.main_item .item_desc {padding-left: 40px; min-width: 230px; font-size: 16px;}
+.main_item .item_desc .item_data {display: flex; align-items: center;}
+.main_item .item_desc .item_data::before {content: '•'; font-size: 30px; line-height: 1;}
+.main_item .item_desc .item_title {font-size: 18px; margin-bottom: 10px;}
+.main_item .item_desc .item_skill .tag {display: inline-block; padding: 4px 10px; margin: 4px 6px 4px 0; border: 1px solid #333; border-radius: 20px; font-size: 14px; color: #ccc;}
+.main_item .item_desc .item_skill .tag.strong {border-color: #5ED3F3; color: #5ED3F3; font-weight: 500;}
+.main_item .item_term {min-width: 230px; padding-left: 40px; font-size: 15px;}
+.main_item .item_sub {font-size: 14px;}
+.main_item .item_content .item_data {margin-bottom: 10px;}
+.main_item .item_content .item_name {display: inline-block; font-size: 18px; font-weight: bold}
+.main_item .item_content .item_agency {display: inline-block; font-size: 14px; color: #666; text-indent: 10px;}
+
+.skill_content .main_item {align-items: baseline}
+.project_content .main_item .item_title {cursor: pointer;}
+.project_content .project_desc {border-bottom: 1px solid rgba(255, 255, 243, .082); padding-bottom: 10px; font-size: 14px}
+.project_content .project_desc dt {font-size: 16px}
+.project_content .project_desc dd {margin-bottom: 15px}
+.project_content .project_desc .project_star dt {font-size: 18px}
+.project_content .project_desc .project_star .trouble_shooting {margin: 7px 0; text-indent: 7px; font-size: 16px;}
+.project_content .project_desc .project_star dd {display: flex;align-items: flex-start;   /* 핵심 */margin-bottom: 6px;line-height: 1.5;}
+.project_content .project_desc .project_star dd::before {content: '•';font-size: 20px;line-height: 1;margin-right: 8px;}
